@@ -6,5 +6,8 @@ Normalized pixel values, flattented 3D to 1D
    Obtained accuracy = 34.28% (baseline accuracy = 10%), confusion matrix determines a moderate performance
    
 2) Decision Tree Classifier
-   Obtained accuracy = 10% (baseline accuracy = 10%), the classifier is just choosing randomly and isn't performing well
+   Obtained accuracy = 10% (baseline accuracy = 10%), the classifier is just choosing only class 0 and isn't performing well
+   
+3) Random Forest Classifier
+   Obtained accuracy = 10% (baseline accuracy = 10%), the classifier is just choosing only class 8 and isn't performing well
    
