@@ -1,0 +1,10 @@
+Dataset = CIFAR-10 (10 class problem, 0% baseline accuracy)
+
+Normalized pixel values, flattented 3D to 1D
+
+1) KNN Classifier- tuned to find k = 12
+   Obtained accuracy = 34.28% (baseline accuracy = 10%), confusion matrix determines a moderate performance
+   
+2) Decision Tree Classifier
+   Obtained accuracy = 10% (baseline accuracy = 10%), the classifier is just choosing randomly and isn't performing well
+   
