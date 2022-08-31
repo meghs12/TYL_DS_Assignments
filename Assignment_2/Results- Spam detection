@@ -1,0 +1,11 @@
+Dataset: https://archive.ics.uci.edu/ml/machine-learning-databases/00228/
+
+Read .txt file, read contents, ham = 0 and spam = 1 as labels
+
+Converted text to lowercase
+
+Features obtained using count-vectorizer
+
+1) Naive Bayes model trained, accuracy = 98.65%, ROC curve and confusion matrix show a good performance
+
+2) SVM model trained, accuracy = 85.5%, confusion matrix shows that the model always predicts 0 so the count vectorizer features are not sufficient with this approach
