@@ -1,0 +1,16 @@
+Dataset: https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data?resource=download
+
+33 features, 569 data points
+
+Feature 'Unnamed: 32' was empty and thus discarded. None of the other columns had null values
+
+The target variable 'diagnosis' was transformed into numerical format- 1 for M (Malignant) and 0 for B (Benign)
+
+80-20 train test split was performed to get 465 training points and 114 test points
+
+1) Linear regression model trained. As the model is regression based and the task is classification based, the predictions were rounded to be either 0 or 1. 
+   The top five important features were 'radius_worst', 'radius_mean', 'perimeter_mean', 'area_worst' and 'perimeter_worst' 
+   Obtained accuracy of 95.61% and the ROC curve and confusion matrix show a good prediction performance
+
+2) Logistic regression model trained. Obtained accuracy of 97.36% and the ROC curve and confusion matrix show a good prediction performance
+   False positive rate for logistic regression was lower than that of linear regression.
