@@ -1,4 +1,4 @@
-# TYL_DS_Assignments
+# data science projects
 
 Assignment 1: Linear regression, Logistic regression on cancer dataset
 
